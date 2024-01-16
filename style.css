@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Karla";
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main {
+  box-shadow: 0px 15px 30px 0px rgba(0, 81, 171, 0.15);
+  display: flex;
+  flex-direction: column;
+  width: 39.6875rem;
+  height: 29.6875rem;
+  background: hsla(0, 0%, 100%, 1);
+  border-radius: 0.5rem;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 1);
+}
+
+button {
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);
+  width: 14.8125rem;
+  height: 3rem;
+  background-color: hsla(71, 73%, 54%, 1);
+  border: none;
+  border-radius: 0.3125rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: hsla(0, 0%, 100%, 1);
+  letter-spacing: -0.0125rem;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: hsl(228, 45%, 44%);
+}
+
+.attribution {
+  font-size: 0.6875rem;
+  color: hsl(0, 0%, 0%);
+  text-align: center;
+  margin: 2rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.benefits li {
+  opacity: 0.75;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #fff;
+  letter-spacing: -0.01094rem;
+  list-style-type: none;
+}
+
+.bottom_left_container {
+  width: 19.875rem;
+  padding: 2.5rem 2.5rem 2.44rem 2.5rem;
+  background-color: hsla(179, 62%, 43%, 1);
+  border-radius: 0 0 0 0.5rem;
+}
+
+.bottom_right_container {
+  width: 19.875rem;
+  padding: 2.5rem;
+  background-color: hsla(179, 62%, 43%, 0.8481);
+  border-radius: 0 0 0.5rem 0;
+}
+
+.first_paragraph {
+  margin-bottom: 0.69rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #c0df33;
+  letter-spacing: -0.01406rem;
+}
+
+.full_access {
+  margin-bottom: 1.62rem;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  letter-spacing: -0.0125rem;
+}
+
+.lower_containers {
+  display: flex;
+  flex-direction: row;
+  height: 16.1875rem;
+}
+
+.per_month {
+  opacity: 0.5;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  letter-spacing: -0.0125rem;
+}
+
+.price {
+  margin: 0 0 0.25rem 0;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.025rem;
+}
+
+.price_per_month {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6875rem;
+}
+
+.second_paragraph {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  color: #9aa7be;
+  letter-spacing: -0.0125rem;
+}
+
+.subscription {
+  margin: 0 0 1.12rem 0;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: hsla(0, 0%, 100%, 1);
+  letter-spacing: -0.01406rem;
+}
+
+.upper_container {
+  height: 13.5rem;
+  padding: 2.5rem;
+  background-color: hsla(0, 0%, 100%, 1);
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.upper_h1 {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2ab3b1;
+  letter-spacing: -0.01875rem;
+}
+
+.why_us {
+  margin: 0 0 1.13rem 0;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: hsla(0, 0%, 100%, 1);
+  letter-spacing: -0.01406rem;
+}
+
+@media (max-width: 31.25rem) {
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 19.4375rem;
+    height: 45.125rem;
+  }
+
+  button {
+    width: 16.4375rem;
+    height: 3rem;
+  }
+
+  .upper_h1 {
+    margin-bottom: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #2ab3b1;
+    letter-spacing: -0.01563rem;
+  }
+
+  .first_paragraph {
+    font-size: 0.9375rem;
+    font-weight: 700;
+    line-height: 1.25rem;
+    letter-spacing: -0.01169rem;
+    margin-bottom: 1rem;
+  }
+
+  .second_paragraph {
+    font-size: 0.875rem;
+    line-height: 1.625rem;
+    letter-spacing: -0.01094rem;
+  }
+
+  .upper_container {
+    width: 19.4375rem;
+    height: 16.6875rem;
+    padding: 1.5rem;
+    background-color: hsla(0, 0%, 100%, 1);
+  }
+
+  .lower_containers {
+    display: flex;
+    flex-direction: column;
+    width: 19.4375rem;
+    height: 28.4375rem;
+  }
+
+  .bottom_left_container {
+    width: 19.4375rem;
+    height: 14.21875rem;
+    padding: 1.5rem;
+    background-color: hsla(179, 62%, 43%, 1);
+    border-radius: 0;
+  }
+
+  .bottom_right_container {
+    width: 19.4375rem;
+    height: 14.21875rem;
+    padding: 1.5rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+  }
+}
